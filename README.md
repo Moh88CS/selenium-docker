@@ -31,3 +31,5 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/Moh88CS/selenium-docker.git
    cd selenium-docker
+   mvn clean install
+   mvn test
