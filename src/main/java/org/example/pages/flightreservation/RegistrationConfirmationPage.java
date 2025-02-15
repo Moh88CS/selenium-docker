@@ -28,6 +28,7 @@ public class RegistrationConfirmationPage extends AbstractPage {
     return this.firstNameElement.getText();
   }
   public void goToFlightSearch(){
+    this.wait.until(ExpectedConditions.visibilityOf(this.goToFlightSearchButton));
     this.goToFlightSearchButton.click();
   }
 

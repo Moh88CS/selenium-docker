@@ -63,6 +63,7 @@ public class RegistrationPage extends AbstractPage {
   }
 
   public void register(){
+    this.wait.until(ExpectedConditions.visibilityOf(this.registerButton));
     this.registerButton.click();
   }
 

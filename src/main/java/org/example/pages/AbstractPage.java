@@ -11,6 +11,7 @@ public abstract class AbstractPage {
 
   public AbstractPage(WebDriver driver){
     this.driver = driver;
+    this.driver.manage().window().maximize();
     this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     PageFactory.initElements(driver, this);
   }
