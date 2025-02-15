@@ -34,5 +34,7 @@ Before you begin, ensure you have the following installed:
    mvn clean install
    mvn test
 
+You can also manually run each test suite individually
+
 ## IMPORTATNT NOTICE
 Unfortunaly, I no longer have access to the cloud environments and Jenkins, meaning the CI/CD demo is hard to replicate. Due to this, I have commented out the remote driver function in the code (please staticly review the code). The good news is that we can still run the tests locally with Maven. You can also see how the tests suites are run in a multi-threaded way which I think is really cool! Thank you so much for understanding :)
